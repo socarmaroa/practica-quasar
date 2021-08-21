@@ -19,8 +19,8 @@ public class QuasarApplication extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
-                .authorizeRequests().antMatchers("/topsecret_split/test/**").permitAll()
-                .antMatchers("/topsecret/test/**").permitAll()
+                .authorizeRequests().antMatchers("/topsecret_split/**").permitAll()
+                .antMatchers("/topsecret/**").permitAll()
                 .anyRequest().authenticated();
     }
 
