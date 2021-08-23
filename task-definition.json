@@ -56,7 +56,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:926091349944:task-definition/quasar:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:926091349944:task-definition/quasar:4",
   "family": "quasar",
   "requiresAttributes": [
     {
@@ -72,7 +72,7 @@
   ],
   "networkMode": null,
   "cpu": "1024",
-  "revision": 1,
+  "revision": 4,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
