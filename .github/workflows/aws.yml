@@ -1,34 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
  
-@socarmaroa 
-socarmaroa
-/
-practica-quasar
-Private
-1
-00
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Security
-Insights
-Settings
-practica-quasar/.github/workflows/aws.yml
-@socarmaroa
-socarmaroa Create aws.yml
-Latest commit 1496bbb 5 minutes ago
- History
- 1 contributor
-83 lines (74 sloc)  3.36 KB
-  
 # This workflow will build and push a new container image to Amazon ECR,
 # and then will deploy a new task definition to Amazon ECS, when a release is created
 #
@@ -111,4 +81,3 @@ jobs:
         service: quasar-service 
         cluster: quasar-cluster
         wait-for-service-stability: true
-Loading complete

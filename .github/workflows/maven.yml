@@ -5,9 +5,9 @@ name: practica-quasar CI with Maven
 
 on:
   push:
-    branches: [ master ]
+    branches: [ socarmaroa-patch-1 ]
   pull_request:
-    branches: [ master ]
+    branches: [ socarmaroa-patch-1 ]
 
 jobs:
   build:
