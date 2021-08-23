@@ -35,7 +35,6 @@ class QuasarServiceGeneral {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         QuasarServiceGeneral agenteQuasar = new QuasarServiceGeneral();
         try {
             System.out.println(agenteQuasar.kenobi);
